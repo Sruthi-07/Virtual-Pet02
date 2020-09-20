@@ -22,7 +22,7 @@ function setup(){
     dog.scale = 0.25;
 
     addFoods = createButton("add more food");
-    addFoods.position(700,95);
+    addFoods.position(500,170);
     addFoods.mousePressed(addFood);
 }
 
