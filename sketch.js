@@ -67,13 +67,13 @@ function bottleNumber(writeData){
     var x = 80;
     var y = 100;
     for (i = 0; i<writeData; i++){
-        if(x > 200){
-            var x = 80;
-            var y = 150;
+        if(i%10 === 0){
+            x = 80;
+            y = y + 50;
         }
         imageMode(CENTER);
         image(milkBottleImage, x, y, 20, 40);
-        x = x + 20
+        x = x + 30;
     }
 }
 
